@@ -5,8 +5,8 @@ BW = im2bw(s,0.2);
 
 c = 1;
 
-for i=1:1024
-    for j=1:1024
+for i=1:w
+    for j=1:h
         if BW(i,j)>0
             ai(c) = i;
             aj(c) = j;
